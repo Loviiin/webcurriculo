@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Currículo Gui</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <br><br><br><br><br><br><br>
+    <div class="card">
+      <div class="card__content">
+    <div id="main-tab" class="tab active">
+ 
+      <h1>Guilherme Henrique De Souza Villa Real</h1>
+
+      <div class="eusou">
+      <h2>Desenvolvedor Fullstack</h2>
+        <a href="https://www.instagram.com/Loviiinn_" target="_blank">Instagram</a></li>
+        <br><a href="https://github.com/Loviiin" target="_blank">GitHub</a></li>
+        <br><a href="https://www.linkedin.com/in/guilherme-henrique-villa-real-456918192/" target="_blank">Linkedin</a></li>
+      </div>
+        <div class="experiencia">
+          <br>
+        <h2>Experiência</h2>
+        <h5>Desenvolvolvendo um site funcional <br> Clone de marketplace totalmente funcional | 2023- Now</h5>
+        <p>-Desenvolver minhas Habilidades em desenvolvimento Fullstack. <br>
+          -Desenvolver uma api funcional.
+          </h6>
+  
+          <h5>Atividade Filantrópica <br> Monitor de informática | 2022- 2023 </h5>
+          <p>-Aulas de informática para a 3° idade <br>
+            -Oque foi ensinado: Windows, Excel,
+            PowerPoint, Word e internet, mobile e
+            segurança online.
+            </p>
+          </div>
+    </div>
+
+    <div id="about-tab" class="tab">
+      <h2>Sobre Mim</h2>
+      <h2>Desenvolvedor Fullstack</h2> 
+        <p>Sou um programador altamente qualificado e disposto a
+          aprender mais e adquirir experiências. Em
+          alguns meses de aprendizado, realizei
+          projetos de desenvolvimento de
+          aplicativos conectado a um banco de
+          dados. Minha area maior de conhecimento são
+        as linguagens python e golang mas, estou disposto 
+      a buscar mais conhecimento para me tornar um dev 
+    Fullstack melhor.</p>
+        <h2>Educação</h2>
+        <P>Centro universitário de Brasília - CEUB <br> Ciência da Computação 2022 - 2026</p>
+        <h2>Línguas</h2>
+        <P>Português <br>
+          Inglês Intermediário</P>
+
+    </div>
+
+    <div id="skills-tab" class="tab">
+        <h2>Habilidades</h2>
+          <ul>
+            <li><img class="skill_img" src="assets/java.png" alt="java"> Java </li>
+            <li><img class="skill_img" src="assets/css4.png" alt="c"> css</li>
+            <li><img class="skill_img" src="assets/html.png" alt="html"> Html</li>
+            <li><img class="skill_img" src="assets/sql.png" alt="sql"> My SQL</li>
+            <li><img class="skill_img" src="assets/python.png" alt="python"> Python</li>
+            <li><img class="skill_img" src="assets/go3.png " alt="oracle"> Go lang</li>
+          </ul>
+          <h2>Projetos</h2>
+          <p>Um simples projeto backend feito em Python →<a target="_blank" href="https://github.com/Loviiin/Projetos">Projeto</a></p>
+          <p>Assim que possivel atualizarei aqui para colocar o marketplace</p>
+        </div>
+      </div>
+
+    <div id="contact-tab" class="tab">
+      <h2>Contato</h2>
+      <p>Endereço de e-mail: ghvillarea12@gmail.com</p>
+      <p>Número de telefone: (61) 99619-3663</p>
+      <p>Brasília-DF</p>
+      
+      <div class="block-title">
+        
+        <h2>Como posso te ajudar?</h2>
+        <div class="">
+          <form id="contact_form" class="contact-form" action="mailto:ghvillarea12@gmail.com" method="post" enctype="text/plain" novalidate="true">
+            <div class="messages"></div>
+            <div class="controls two-columns">
+              <div class="fields clearfix">
+                <div class="left-column">
+                  <div class="form-group form-group-with-icon">
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Nome" required="required" data-error="Name is required.">
+                    <div class="form-control-border"></div>
+                    <div class="help-block with-errors"></div>
+                  </div>
+
+                  <div class="form-group form-group-with-icon">
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Endereço de e-mail" required="required" data-error="Valid email is required.">
+                    <div class="form-control-border"></div>
+                    <div class="help-block with-errors"></div>
+                  </div>
+
+                  <div class="name">
+                    <input id="form_name" type="text" name="subject" class="form-control" placeholder="Assunto" required="required" data-error="Subject is required.">
+                    <div class="form-control-border"></div>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="message">
+                  <div class="form-group form-group-with-icon">
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Mensagem" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                    <div class="form-control-border"></div>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <input type="submit" class="send" value="Enviar mensagem"/>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="botao">
+    <button onclick="openTab('main-tab')">Principal</button>
+    <button onclick="openTab('about-tab')">Sobre Mim</button>
+    <button onclick="openTab('skills-tab')">Habilidades</button>
+    <button onclick="openTab('contact-tab')">Contato</button>
+    </div>
+    <div class="direitos">
+    <p>© 2023 Todos direitos reservados a @Loviin</p>
+  </div>
+    </div>
+    <script>
+      function openTab(tabName) {
+        var i, x;
+        x = document.getElementsByClassName("tab");
+        for (i = 0; i < x.length; i++) {
+          x[i].classList.remove("active");
+        }
+        document.getElementById(tabName).classList.add("active");
+      }
+    </script>
+  </body>
+</html>

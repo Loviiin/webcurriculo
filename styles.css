@@ -1,0 +1,363 @@
+/* Estilos gerais */
+/* Estilos para a imagem do perfil */
+/* Estilos para a imagem do perfil */
+h1 {
+  margin-left: 10px;
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-weight: 700;
+  color: #0000ff;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  line-height: 130%;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #996dff, #ff927b 28%, #ffd47f 56%, #ffbf40 82%, #ff5c39);
+  -webkit-background-clip: text;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+}
+
+h2 {
+  margin-left: 10px;
+  color: #ff0000;
+
+}
+
+h5 {
+  margin-left: 10px;
+  color: #7FFFD4;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+h6 {
+  margin-left: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+.skill_img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+/* Estilos para as abas */
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+/* Estilos para a primeira div */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 1;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+p {
+  margin-left: 10px;
+  margin-top: -3px;
+  margin-right: 10px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+body {
+  background-image: url('assets/planoDeFundo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Estilos para as abas */
+.tab {
+  display: none;
+}
+
+
+.tab.active {
+  display: block;
+}
+
+/* Estilos para a primeira div */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  z-index: 1;
+  border-right: 1px solid #ddd;
+}
+
+.skill_img {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.botao {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  margin: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  margin-top: 0;
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+/* Estilos para a imagem do perfil */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+/* Estilos para as abas */
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+/* Estilos para a primeira div */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 1;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.card {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.direitos {
+  position: fixed;
+  bottom: -7px;
+  left: -5;
+  color: #050505;
+}
+
+.tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 9px;
+}
+
+.circle {
+  padding: 0 4px;
+}
+
+.box {
+  display: inline-block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+li {
+  margin: 10px;
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.skill_img {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.eusou,
+.profile-img {
+  margin-left: 10px;
+  display: inline-block;
+
+}
+
+.eusou {
+  vertical-align: top;
+}
+
+.contato {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  margin: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.send {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  margin: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.block-title {
+  text-align: center;
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 10px;
+
+
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
