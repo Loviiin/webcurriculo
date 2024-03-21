@@ -91,10 +91,10 @@ body {
   margin: 0;
   padding: 0;
   color: #ffffff;
-  background-image: url('assets/vida.png');
+  background-image: url('assets/smigwe.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 30%;
+  background-position: center 40%;
 }
 
 /* Estilos para as abas */
@@ -177,7 +177,7 @@ ul {
 }
 
 a {
-  color: #ffffff;
+  color: #00b7ff;
   margin-left: 10px;
   margin-top: -10px;
 }
@@ -296,6 +296,7 @@ li {
   grid-template-columns:
     repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1rem;
+  color: #00ccff;
 }
 
 .skill_img {
