@@ -1,40 +1,38 @@
-/* Estilos gerais */
-/* Estilos para a imagem do perfil */
-/* Estilos para a imagem do perfil */
 h1 {
-  margin-left: 10px;
+  margin-left: 0px;
   text-align: center;
-  -webkit-text-size-adjust: 100%;
-  box-sizing: border-box;
   font-weight: 700;
-  color: #0000ff;
+  color: #000000;
   font-family: Roboto, sans-serif;
   font-size: 40px;
   line-height: 130%;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(90deg, #996dff, #ff927b 28%, #ffd47f 56%, #ffbf40 82%, #ff5c39);
-  -webkit-background-clip: text;
-  text-align: center;
   margin-top: 24px;
   margin-bottom: 24px;
-
 }
+
 
 h2 {
   margin-left: 10px;
-  color: #ff0000;
+  color: #00ccff;
 
 }
 
 h5 {
   margin-left: 10px;
-  color: #7FFFD4;
+  color: #000000;
   font-size: 18px;
   margin-top: 0px;
 }
 
 h6 {
   margin-left: 10px;
+}
+
+h7 {
+  margin-left:10px ;
+  color: #6f00ff;
+  font-size: 15px;
+  margin-top: 0px;
 }
 
 li {
@@ -93,7 +91,7 @@ body {
   margin: 0;
   padding: 0;
   color: #ffffff;
-  background-image: url('assets/ex.png');
+  background-image: url('assets/vida.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 30%;
