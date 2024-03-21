@@ -89,9 +89,14 @@ p {
 }
 
 body {
-  background-image: url('assets/planoDeFundo.png');
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-image: url('assets/ex.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center 30%;
 }
 
 /* Estilos para as abas */
